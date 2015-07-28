@@ -1,0 +1,106 @@
+/*
+ Theme Name:   AMT Document Manager Theme
+ Author:       Richard Crowther
+ Template:     twentyfifteen
+ Version:      1.0.0
+ Text Domain:  twenty-fifteen-child
+*/
+
+/** Backghround Image **/
+BODY {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Remove huge padding from all pages. */
+#main.site-main {
+    margin: 0;
+    padding: 0;
+}
+
+/** hide post navigation **/
+#main .post-navigation {
+    display: none;
+}
+
+/** Document Manager Styles */
+#docman {
+    margin: 3%;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    font-family: Arial, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size: 14px;
+}
+
+#docman.post {
+
+}
+
+#docman P, #docman UL, #docman H1 {
+    margin-bottom: 10px;
+}
+
+#docman H1, #docman H2 {
+    font-size: 20px;
+}
+
+#docman UL {
+    border-top: solid #DDDDDD 1px;
+    border-bottom: solid #DDDDDD 1px;
+}
+
+#docman A.download {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+#docman UL LI.post, #docman UL LI.category {
+    list-style: none;
+    display: block;
+    background-color: #FFFFFF;
+    margin: 0 0 5px 0;
+    padding: 5px;
+    padding-left: 42px;
+
+    min-height: 42px;
+    background-image: url(img/icon.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    background-size: auto 32px;
+}
+
+#docman UL LI.post B, #docman UL LI.category B {
+    line-height: 18px;
+    display: block;
+}
+
+#docman UL LI.post I, #docman UL LI.category I {
+    line-height: 13px;
+    display: block;
+}
+
+#docman UL LI.category {
+    background-image: url(img/dir.png);
+}
+
+/** Modify the header to show the Logo. **/
+#masthead {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#masthead P.site-title A {
+    display: block;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    font-size: 0.1px;
+    color: transparent !important;
+    height: 60px;
+    background-size: auto 100%;
+}
+
+#masthead P.site-description {
+    font-size: 12px;
+}
